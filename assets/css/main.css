@@ -696,18 +696,18 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px 0 60px 0;
+  padding: 140px 0 60px 0;
 }
 
 @media (max-width: 640px) {
   .hero {
-    padding: 50px 0 60px 0;
+    padding: 80px 0 60px 0;
   }
 }
 
 @media (max-width: 768px) {
   .hero {
-    padding: 50px 0 60px 0;
+    padding: 80px 0 60px 0;
   }
 }
 
@@ -932,10 +932,10 @@ section {
 /*--------------------------------------------------------------
 # Fullscreen Hero Section
 --------------------------------------------------------------*/
-.hero-fullscreen {
+/* .hero-fullscreen {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/home-bg.jpg") center center;
+  background: url("../img/bg-1.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 10px 0 60px;
@@ -944,7 +944,7 @@ section {
 .hero-fullscreen2 {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/home-bg2.jpg") center center;
+  background: url("../img/bg-2.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
@@ -953,10 +953,87 @@ section {
 .hero-fullscreen3 {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/home-bg-3.jpg") center center;
+  background: url("../img/bg-3.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
+}
+.hero-fullscreen4 {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/bg-4.jpg") center center;
+  background-size: cover;
+  position: relative;
+  padding: 120px 0 60px;
+}
+
+.hero-fullscreen5 {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/bg-5.jpg") center center;
+  background-size: cover;
+  position: relative;
+  padding: 120px 0 60px;
+}
+.hero-fullscreen6 {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/bg-6.jpg") center center;
+  background-size: cover;
+  position: relative;
+  padding: 120px 0 60px;
+}
+
+.hero-fullscreen7 {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/bg-7.jpg") center center;
+  background-size: cover;
+  position: relative;
+  padding: 120px 0 60px;
+} */
+
+
+
+@media (max-width: 640px) {
+  .hero-fullscreen  > #hidden{
+    height: 300px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-fullscreen7 > #hidden {
+    height: 300px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-fullscreen6 > #hidden {
+    height: 300px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-fullscreen5 > #hidden {
+    height: 300px;
+  }
+}
+@media (max-width: 640px) {
+  .hero-fullscreen4 > #hidden {
+    height: 300px;
+  }
+}
+@media (max-width: 640px) {
+  .hero-fullscreen3 > #hidden {
+    height: 300px;
+  }
+
+}
+@media (max-width: 640px) {
+  .hero-fullscreen2 > #hidden {
+    height: 300px;
+  }
+
 }
 /* 
 .hero-fullscreen:before {

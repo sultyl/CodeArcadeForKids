@@ -11,6 +11,14 @@
       {
         "label": "off"
       }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "min-height: fit-content"
+        ]
+      }
     ]
   }
 }
