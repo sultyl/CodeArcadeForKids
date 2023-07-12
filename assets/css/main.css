@@ -696,7 +696,19 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 140px 0 60px 0;
+  padding: 100px 0 60px 0;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 50px 0 60px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px 0 60px 0;
+  }
 }
 
 .hero .carousel-item {
@@ -705,7 +717,7 @@ section {
 
 @media (max-width: 640px) {
   .hero .container {
-    padding: 0 60px;
+    padding: 0 5px;
   }
 }
 
@@ -742,15 +754,12 @@ section {
 }
 
 .hero .btn-get-started {
-  font-family: var(--font-secondary);
-  font-weight: 400;
   font-size: 16px;
-  letter-spacing: 1px;
+  font-weight: 400;
   display: inline-block;
   padding: 10px 28px;
-  border-radius: 5px;
+  border-radius: 4px;
   transition: 0.5s;
-  animation: fadeInUp 1s both 0.6s;
   color: var(--color-white);
   background: var(--color-green);
   font-family: var(--font-secondary);
@@ -795,6 +804,15 @@ section {
   }
 
   .hero .btn-get-started,
+  .hero .btn-watch-video {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 320px) {
+  .hero .btn-get-started {
+    font-size: 14px;
+  }
   .hero .btn-watch-video {
     font-size: 14px;
   }
@@ -920,7 +938,7 @@ section {
   background: url("../img/home-bg.jpg") center center;
   background-size: cover;
   position: relative;
-  padding: 120px 0 60px;
+  padding: 10px 0 60px;
 }
 
 .hero-fullscreen2 {
@@ -940,13 +958,27 @@ section {
   position: relative;
   padding: 120px 0 60px;
 }
-
+/* 
 .hero-fullscreen:before {
   content: "";
   background: rgba(var(--color-white-rgb), 0.2);
   position: absolute;
   inset: 0;
 }
+
+.hero-fullscreen2:before {
+  content: "";
+  background: rgba(var(--color-white-rgb), 0.2);
+  position: absolute;
+  inset: 0;
+}
+
+.hero-fullscreen3:before {
+  content: "";
+  background: rgba(var(--color-white-rgb), 0.2);
+  position: absolute;
+  inset: 0;
+} */
 
 .hero-fullscreen h2 {
   margin: 0 0 10px 0;
@@ -975,7 +1007,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: var(--color-white);
-  background: var(--color-primary);
+  background: var(--color-green);
   font-family: var(--font-secondary);
 }
 
