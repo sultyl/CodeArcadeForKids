@@ -227,8 +227,8 @@ section {
 }
 
 @media only screen and (max-width: 600px) and (min-width: 300px) {
-  .header > .container-fluid > .logo > h1 {
-    font-size: 14px !important;
+  .header > .container-fluid > .logo > img {
+    max-height: 25px;
   } 
 }
 
